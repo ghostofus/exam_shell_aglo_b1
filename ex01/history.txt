@@ -1,0 +1,261 @@
+    1  ls
+    2  ls - la
+    3  ls -la
+    4  touch script.cs
+    5  ls
+    6  pwd
+    7  clear
+    8  pwd
+    9  git init
+   10  ls
+   11  ls -la
+   12  ls
+   13  cd -..
+   14  cd ..
+   15  ls
+   16  cd..
+   17  cd ..
+   18  mkdir Algo
+   19  ls
+   20  cd Algo/
+   21  ls
+   22  git init
+   23  ls lz
+   24  ls -la
+   25  rmdir Algo
+   26  rmdir Algo/
+   27  cd Commande
+   28  mkdir Commande
+   29  cd Commande/
+   30  rmdir Commande/
+   31  cd ..
+   32  ls
+   33  rmdir Commande/
+   34  ls
+   35  clear
+   36  mkdir Games
+   37  cd Games/
+   38  git clone https://github.com/ghostofus/Monjeu.git
+   39  ls
+   40  clear
+   41  touch ok
+   42  vim ok
+   43  ls
+   44  ls
+   45  cd
+   46  cd /c
+   47  ls
+   48  cd Algo/
+   49  cd Games/
+   50  ls
+   51  mkdir ok 
+   52  vim ok 
+   53  ls
+   54  cd
+   55  cd /c
+   56  ls
+   57  mkdir hello-world
+   58  cd hello-world
+   59  git init
+   60  git status
+   61  git status
+   62  ls
+   63  cd
+   64  ls
+   65  cd hello-world
+   66  mkdir hello-word
+   67  cd hello-world
+   68  ls
+   69  cd /c
+   70  ls
+   71  cd hello-world/
+   72  ls
+   73  git init
+   74  git status
+   75  git status
+   76  git add readme.txt
+   77  git status
+   78  git add readme.txt
+   79  git commit -m "Création du fichier readme"
+   80  git diff
+   81  cd
+   82  cd /c
+   83  ls
+   84  mkdir ESSCA-git
+   85  cd ESSCA-git
+   86  git init
+   87  touch essca.html
+   88  git status
+   89  git add.
+   90  git add .
+   91  git status
+   92  git commit -m "ESSCA is my home"
+   93  ls
+   94  cd ..
+   95  ls
+   96  cd
+   97  cd louan
+   98  cd ..
+   99  cd louan/
+  100  ls
+  101  rm -rf .git/
+  102  cd ..
+  103  cd ..
+  104  ls
+  105  cd ESSCA-git/
+  106  git status
+  107  git clone https://github.com/ghostofus/ESSCA-git.git
+  108  touch essca.html
+  109  git status
+  110  git add .
+  111  git add.
+  112  git status
+  113  git add ESSCA-git/
+  114  ls
+  115  clear
+  116  cd ESSCAgit
+  117  cd ESSCA-git
+  118  ls
+  119  touch essca.html
+  120  ls
+  121  git status
+  122  git add .
+  123  git status
+  124  git commit - m "essca is my home"
+  125  git commit -m "essca is my home"
+  126  git push
+  127  ssh-keygen -t ed25519 -C "louann.barry05@gmail.com"
+  128  Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+  129  Start-Service ssh-agent
+  130  pwd
+  131  cd ..
+  132  ls
+  133  ls -la
+  134  cd ..
+  135  ls
+  136  mkdir seance2ican
+  137  cd seance2ican/ ; ls
+  138  ls
+  139  mkdir test test 1 ; ls -la
+  140  ls
+  141  ls -a
+  142  ls -l
+  143  man ls
+  144  man
+  145  ls -la test/
+  146  ls -la 1/
+  147  mkdir cible ; mv cible text ; ls -l test
+  148  cd algo_b1
+  149  cd algo_B1
+  150  git log
+  151  git clone https://github.com/ICAN-Lyon/exam_shell_aglo_b1.git
+  152  cd exam_shell_aglo_b1
+  153  cd ex00
+  154  cd covers
+  155  ls
+  156  mkdir Nintendo Sony Microsoft
+  157  cd Nintendo
+  158  mkdir GameCube GameBoy GameBoyColors DreamCast
+  159  cd ..
+  160  cd Sony
+  161  mkdir Playstation 4 Playstation 5
+  162  mkdir PS5 PS4
+  163  cd ..
+  164  mkdir Sega
+  165  cd Sega
+  166  mkdir DreamCast
+  167  cd ..
+  168  cd Nintendo
+  169  git rm DreamCast
+  170  rm -rf DreamCast
+  171  cd ..
+  172  cd Microsoft
+  173  mkdir xbox360 xbox
+  174  cd ..
+  175  ls
+  176  cd Sega
+  177  mv dc_jetgrindradio_10 dc_jetsetradio_eu_front dc_shenmue_eu dc_shenmueii_5 ./Sega
+  178  mv dc_jetgrindradio_10 dc_jetsetradio_eu_front dc_shenmue_eu dc_shenmueii_5 ./Sega/
+  179   
+  180  cd ..
+  181  mv dc_jetgrindradio_10 dc_jetsetradio_eu_front dc_shenmue_eu dc_shenmueii_5 ./Sega/
+  182  mv dc_jetgrindradio_10 dc_jetsetradio_eu_front dc_shenmue_eu dc_shenmueii_5 ./Sega
+  183  mv dc_jetgrindradio_10.jpg dc_jetsetradio_eu_front.jpg dc_shenmue_eu.jpg dc_shenmueii_5.jpg ./Sega
+  184   
+  185  cd Sega
+  186  mv dc_jetgrindradio_10.jpg dc_jetsetradio_eu_front.jpg dc_shenmue_eu.jpg dc_shenmueii_5.jpg ./DreamCast
+  187  cd ..
+  188  mv gameboy.pokmonred.jpg gb_pokemonblue_eu.jpg gb_pokemongreen_3.jpg gb_pokemonyellow_au.jpg ./Nintendo
+  189  cd Nintendo
+  190  mv gameboy.pokmonred.jpg gb_pokemonblue_eu.jpg gb_pokemongreen_3.jpg gb_pokemonyellow_au.jpg ./GameBoy
+  191  cd ..
+  192  mv gbc_pokemongold.jpg ./Nintendo
+  193  mv gbc_pokemongold.jpg ./GameBoyColors
+  194  mv gbc_pokemongold.jpg ./GameBoyColors
+  195  mv gbc_pokemongold.jpg ./GameBoyColors/
+  196  ls
+  197  cd Nintendo
+  198  mv gbc_pokemongold.jpg ./GameBoyColors/
+  199  cd ..
+  200  mv gc_mariokartdoubledash.jpg gc_supermariosunshine.jpg ./Nintendo  
+  201  cd Nintendo
+  202  mv gc_mariokartdoubledash.jpg gc_supermariosunshine.jpg ./GameCube
+  203  cd ..
+  204  mv playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg playstation_5.assassinscreedvalhalla.jpg playstation_5.farcry6.jpg playstation_5.residentevilvillage_.jpg ./Playstation/
+  205  mv playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg playstation_5.assassinscreedvalhalla.jpg playstation_5.farcry6.jpg playstation_5.residentevilvillage_.jpg ./Sony/
+  206  cd Sony
+  207  mv playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg ./PS4/
+  208  mv playstation_5.assassinscreedvalhalla.jpg playstation_5.farcry6.jpg playstation_5.residentevilvillage_.jpg ./PS5/
+  209  CD ..
+  210  cd ..
+  211  mv ps4_fifa14.jpg ./Sony/
+  212  cd Sony
+  213  mv ps4_fifa14.jpg ./PS4/
+  214  cd ..
+  215  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg xbox_360.fableiii.jpg xbox_deadoralive3.jpg xbox_deadtorights.jpg xbox_defjamfightforny.jpg xbox_halo2.jpg xbox_halo_2.jpg xbox_jetsetradiofuture_2.jpg xbox_needforspeedunderground2.jpg ./Microsoft/ 
+  216  cd Microsoft
+  217  mv xbox_deadoralive3.jpg xbox_deadtorights.jpg xbox_defjamfightforny.jpg xbox_halo2.jpg xbox_halo_2.jpg xbox_jetsetradiofuture_2.jpg xbox_needforspeedunderground2.jpg ./xbox/ 
+  218  mv x360_callfoduty3.jpg x360_callofduty2.jpg x360_callofduty4.jpg x360_callofdutyblackopsii.jpg xbox_360.fableiii.jpg ./xbox360/ 
+  219  cd Nintendo
+  220  cd ..
+  221  cd Nintendo
+  222  mkdir Salon Portable
+  223  mv GameBoy GameboyColors ./Portable/
+  224  mv GameCube ./Salon/
+  225  git add .
+  226  cd ..
+  227  cd ..
+  228  cd ..
+  229  git add .
+  230  git commit -m "Resolution de l'exercice 00"
+  231  git push
+  232  git log
+  233  cd ..
+  234  git clone https://github.com/ghostofus/exam_shell_aglo_b1.git
+  235  git add .
+  236  cd exam_shell
+  237  cd ..
+  238  cd exam_shell_aglo_b1
+  239  git add .
+  240  git commit
+  241  git commit
+  242  git commit -m "Resolution de l'exo 00"
+  243  git push
+  244  ls
+  245  cd ex01
+  246  ls
+  247  cat instruction.txt
+  248  cat instructions.txt
+  249  head dialogue.txt
+  250  head dialogue.txt > first_command.sh
+  251  tail -n 10 dialogue.txt
+  252  tail -n 10 dialogue.txt > second_command.sh
+  253  head -c 100 dialogue.txt
+  254  head -c 100 dialogue.txt > third_command.sh
+  255  git status
+  256  git add . 
+  257  git status
+  258  git commit -m "Resolution exo 01"
+  259  git push
+  260  history
+  261  history > history.txt

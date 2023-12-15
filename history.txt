@@ -1,0 +1,334 @@
+    1  ls
+    2  ls - la
+    3  ls -la
+    4  touch script.cs
+    5  ls
+    6  pwd
+    7  clear
+    8  pwd
+    9  git init
+   10  ls
+   11  ls -la
+   12  ls
+   13  cd -..
+   14  cd ..
+   15  ls
+   16  cd..
+   17  cd ..
+   18  mkdir Algo
+   19  ls
+   20  cd Algo/
+   21  ls
+   22  git init
+   23  ls lz
+   24  ls -la
+   25  rmdir Algo
+   26  rmdir Algo/
+   27  cd Commande
+   28  mkdir Commande
+   29  cd Commande/
+   30  rmdir Commande/
+   31  cd ..
+   32  ls
+   33  rmdir Commande/
+   34  ls
+   35  clear
+   36  mkdir Games
+   37  cd Games/
+   38  git clone https://github.com/ghostofus/Monjeu.git
+   39  ls
+   40  clear
+   41  touch ok
+   42  vim ok
+   43  ls
+   44  ls
+   45  cd
+   46  cd /c
+   47  ls
+   48  cd Algo/
+   49  cd Games/
+   50  ls
+   51  mkdir ok 
+   52  vim ok 
+   53  ls
+   54  cd
+   55  cd /c
+   56  ls
+   57  mkdir hello-world
+   58  cd hello-world
+   59  git init
+   60  git status
+   61  git status
+   62  ls
+   63  cd
+   64  ls
+   65  cd hello-world
+   66  mkdir hello-word
+   67  cd hello-world
+   68  ls
+   69  cd /c
+   70  ls
+   71  cd hello-world/
+   72  ls
+   73  git init
+   74  git status
+   75  git status
+   76  git add readme.txt
+   77  git status
+   78  git add readme.txt
+   79  git commit -m "Création du fichier readme"
+   80  git diff
+   81  cd
+   82  cd /c
+   83  ls
+   84  mkdir ESSCA-git
+   85  cd ESSCA-git
+   86  git init
+   87  touch essca.html
+   88  git status
+   89  git add.
+   90  git add .
+   91  git status
+   92  git commit -m "ESSCA is my home"
+   93  ls
+   94  cd ..
+   95  ls
+   96  cd
+   97  cd louan
+   98  cd ..
+   99  cd louan/
+  100  ls
+  101  rm -rf .git/
+  102  cd ..
+  103  cd ..
+  104  ls
+  105  cd ESSCA-git/
+  106  git status
+  107  git clone https://github.com/ghostofus/ESSCA-git.git
+  108  touch essca.html
+  109  git status
+  110  git add .
+  111  git add.
+  112  git status
+  113  git add ESSCA-git/
+  114  ls
+  115  clear
+  116  cd ESSCAgit
+  117  cd ESSCA-git
+  118  ls
+  119  touch essca.html
+  120  ls
+  121  git status
+  122  git add .
+  123  git status
+  124  git commit - m "essca is my home"
+  125  git commit -m "essca is my home"
+  126  git push
+  127  ssh-keygen -t ed25519 -C "louann.barry05@gmail.com"
+  128  Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+  129  Start-Service ssh-agent
+  130  pwd
+  131  cd ..
+  132  ls
+  133  ls -la
+  134  cd ..
+  135  ls
+  136  mkdir seance2ican
+  137  cd seance2ican/ ; ls
+  138  ls
+  139  mkdir test test 1 ; ls -la
+  140  ls
+  141  ls -a
+  142  ls -l
+  143  man ls
+  144  man
+  145  ls -la test/
+  146  ls -la 1/
+  147  mkdir cible ; mv cible text ; ls -l test
+  148  cd algo_b1
+  149  cd algo_B1
+  150  git log
+  151  cd Cours B1
+  152  Cd Algo
+  153  cd Algo
+  154  cd exam_shell_algo_b1
+  155  git log
+  156  ls -l
+  157  cd D:\
+  158  cd ..
+  159  cd ..
+  160  cd EXAM
+  161  git status
+  162  pwd
+  163  cd chemin/vers/exam_shell_algo_b1
+  164  cd chemin/vers/exam_shell_aglo_b1
+  165  cd exam_shell_aglo_b1
+  166  cd ex02
+  167  cd EXAM
+  168  pwd
+  169  cd D:
+  170  cd Cours b1
+  171  cd CoursB1
+  172  cd Algo
+  173  cd CoursB1
+  174  cd Algo
+  175  cd EXAM
+  176  cd exam_shell_aglo_b1
+  177  cd ex02
+  178  pwd
+  179  ls
+  180  grep "Lyon,2019,UX" data.csv > ux_lyon_2019.csv
+  181  grep "GameProgramming,2021" data.csv > GameProgramming_2021.csv
+  182  grep -i "Susan" data.csv > Susan.csv
+  183  grep "Lille" data.csv | cut -d',' -f4 > mails_Lille.csv
+  184  grep -E "Lyon|Paris|Lille" data.csv | cut -d',' -f5 > mails_GameDesign_Lyon_Paris_Lille.csv
+  185  grep "2023,Communication" data.csv > Communication_2023.csv
+  186  git status
+  187  git add .
+  188  git status
+  189  git add .
+  190  git status
+  191  git commit -m "Resolution ex02"
+  192  git push
+  193  rm Communication_2023.csv
+  194  rm Communication_2023.csv
+  195  rm                     GameProgramming_2021.csv Susan.csv mails_GameDesign_Lyon_Paris_Lille.csv mails_Lille.csv ux_lyon_2019.csv
+  196  grep -c "Lyon,2019,UX" data.csv > ux_lyon_2019.csv
+  197  grep "GameProgramming,2021" data.csv > GameProgramming_2021.csv
+  198  grep -ci "Susan" data.csv > Susan.csv
+  199  grep "Lille" data.csv | cut -d',' -f4 > mails_Lille.csv
+  200  rm mails_Lille.csv
+  201  grep -c "2023,Communication" data.csv > Communication_2023.csv
+  202  grep "Lille" data.csv | cut -d',' -f3 > mails_Lille.csv
+  203  grep -E "Lyon|Paris|Lille" data.csv | cut -d',' -f3 > mails_GameDesign_Lyon_Paris_Lille.csv
+  204  git status
+  205  git add .
+  206  git status
+  207  git commit -m "Resolution ex02"
+  208  git push
+  209  cd ..
+  210  cd ex03
+  211  echo "Bonjour, quel est votre prénom ?"
+  212  read prenom
+  213  echo "Bonjour, $prenom !"
+  214  chmod +x bonjour.sh
+  215  ls
+  216  nano bonjour.sh
+  217  chmod +x bonjour.sh
+  218  ./bonjour.sh
+  219  git status
+  220  git add . 
+  221  git status
+  222  git commit -m "Resolution ex03"
+  223  git push
+  224  cd d:
+  225  cd CoursB1
+  226  cd Algo
+  227  cd EXAM
+  228  cd exam_shell_aglo_b1
+  229  cd Rush
+  230  cd instruction
+  231  cd instructions
+  232  cd Murder_in_terminal_city
+  233  cd instructions
+  234  ls
+  235  cd instructions
+  236  cd instructions
+  237  cat instructions
+  238  nano cheatsheet.md
+  239  cd d:
+  240  cd CoursB1
+  241  cd Algo
+  242  cd EXAM
+  243  cd exam_shell_aglo_b1
+  244  cd Rush
+  245  cd Murder_in_terminal_city
+  246  cd mystery
+  247  cat crimescene
+  248  cat people
+  249  cd d:
+  250  cd e:
+  251  cd rush
+  252  cd Rush
+  253  cd CoursB1
+  254  cd Algo
+  255  cd EXAM
+  256  cd exam_shell_algo_b1
+  257  cd exam_shell_aglo_b1
+  258  cd Rush
+  259  cd Murder_in_terminal_city
+  260  cat instructions
+  261  cd mystery
+  262  grep CLUE crimescene
+  263  cat AAA | while read LINE;do num=$(grep -E "$LINE" AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | wc -l); if [ $num -eq 4 ]; then echo $LINE>>../../Detective/memberships.txt;fi;done;
+  264  cd memberships
+  265  cat AAA | while read LINE;do num=$(grep -E "$LINE" AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | wc -l); if [ $num -eq 4 ]; then echo $LINE>>../../Detective/memberships.txt;fi;done;
+  266  cat AAA
+  267  |
+  268  cat ../Detective/memberships.txt | while read LINE;do res=$(grep "$LINE" people); echo $res>>../Detective/people.txt;done;
+  269  cat AAA | while read LINE;do num=$(grep -E "$LINE" AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | wc -l); if [ $num -eq 4 ]; then echo $LINE>>../../Detective/memberships.txt;fi;done;
+  270  cd e:
+  271  cd CoursB1
+  272  cd Algo
+  273  cd EXAM
+  274  cd exam_shell_aglo_b1
+  275  cd Rush
+  276  cd Murder_in_terminal_city
+  277  cat instructions
+  278  grep CLUE crimescene
+  279  cd mistery
+  280  cd mystery
+  281  grep CLUE crimescene
+  282  grep -Ff AAA AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | sort | uniq -c | awk '$1 == 4 {print $2}' > ../../Detective/memberships.txt
+  283  cd memberships
+  284  grep -Ff AAA AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | sort | uniq -c | awk '$1 == 4 {print $2}' > ../../Detective/memberships.txt
+  285  cat AAA | while read LINE;do num=$(grep -E "$LINE" AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | wc -l); if [ $num -eq 4 ]; then echo $LINE>>../../Detective/memberships.txt;fi;done;
+  286  grep -Ff AAA AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library | sort | uniq -c | awk '$1 == 4 {print $2}' > ../../Detective/memberships.txt
+  287  cd .
+  288  cd ..
+  289  cd ..
+  290  grep -n "CLUE" crimescene
+  291  cd crimescene
+  292  cd mystery
+  293  grep -n "CLUE" crimescene
+  294  grep "Annabel" people| grep "\tF\t"
+  295  grep "Annabel" people | grep "\tF\t"
+  296  grep "Annabel" people | grep "\tF\t" > t1.txt
+  297  ls
+  298  cat t1.txt
+  299  vim
+  300  vim t1.txt
+  301  sed -n "40p" streets/Hart_Place
+  302  sed -n "179p" streets/Buckingham_Place
+  303  cat interviews/interview-47246024
+  304  cat interviews/interview-699607
+  305  cat vehicles|tr "\n" " "|sed 's/License/\n&/g'|grep Honda|grep Blue|grep -n -e  "L337..9"
+  306   cd memberships
+  307  grep "Joe Germuska" -n  memberships/*
+  308  cd ..
+  309  grep "Joe Germuska" -n  memberships/
+  310   cd memberships
+  311  grep "Joe Germuska" -n  memberships/
+  312  cd ..
+  313  grep "Joe Germuska" -n  memberships/
+  314  grep "Joe Germuska" -n  memberships/*
+  315  grep "Jeremy Bowers" -n memberships/*
+  316  echo "Jeremy Bowers"| $(command -v md5 || command -v md5sum) | grep -qif
+  317  touch coupable.txt
+  318  vim coupable.txt
+  319  cd 
+  320  cd ..
+  321  ls7
+  322  ls
+  323  cd louan
+  324  ls
+  325  cd e:
+  326  cd CoursB1
+  327  cd Algo
+  328  ls
+  329  cd EXAM
+  330  ls
+  331  cd exam_shell_algo_b1
+  332  cd exam_shell_aglo_b1
+  333  ls
+  334  history > history.txt
